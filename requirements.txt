@@ -1,0 +1,2 @@
+evdev
+qrcode[pil]

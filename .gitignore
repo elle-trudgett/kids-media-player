@@ -1,0 +1,6 @@
+media/
+qr-codes/
+assets/splash.png
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,14 @@
+[Unit]
+Description=Kids QR-Code Media Player
+After=graphical-session.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/code/kids-media-player
+ExecStart=/usr/bin/python3 %h/code/kids-media-player/player.py
+Restart=on-failure
+RestartSec=5
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=default.target
